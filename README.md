@@ -1,6 +1,21 @@
 # vue-directive-waves
 Use the wave effect in Vue. Based on [Waves](https://github.com/fians/Waves).
 
+## Install
+
+Cloning this repository to your project.
+
+```
+git clone git@github.com:yscoder/vue-directive-waves.git
+```
+
+Installation depends.
+
+```
+cd vue-directive-waves
+npm install
+```
+
 ## Example
 
 Add directive in the template.
