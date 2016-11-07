@@ -1,14 +1,12 @@
 # vue-directive-waves
 
-Use the wave effect in Vue 1.x or less. Based on [Waves](https://github.com/fians/Waves).
+Use the wave effect in Vue2. Based on [Waves](https://github.com/fians/Waves).
 
 ## Install
 
-
 ```
-npm install vue-directive-waves@1.0.0 --save
+npm install vue-directive-waves --save
 ```
-
 
 ## Example
 
