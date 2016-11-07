@@ -5,12 +5,13 @@ module.exports = function(Vue, option) {
 
     Waves.init(option);
 
-    Vue.directive('waves', function(value) {
+    Vue.directive('waves', {
+        inserted(el, bind) {
+            var classes = Object.keys(bind.modifiers).map(function(val) {
+                return 'waves-' + val;
+            });
 
-        var classes = Object.keys(this.modifiers).map(function(val) {
-            return 'waves-' + val;
-        });
-
-        Waves.attach(this.el, classes);
+            Waves.attach(el, classes);
+        }
     });
 };
