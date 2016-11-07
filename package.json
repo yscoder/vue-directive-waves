@@ -1,10 +1,11 @@
 {
   "name": "vue-directive-waves",
-  "version": "0.0.1",
-  "description": "Use the wave effect in vue.",
+  "version": "1.0.0",
+  "description": "Use the wave effect in vue 1.x or less.",
   "keywords": [
     "vue",
-    "waves"
+    "waves",
+    "directive"
   ],
   "main": "index.js",
   "scripts": {

@@ -1,26 +1,20 @@
 # vue-directive-waves
-Use the wave effect in Vue. Based on [Waves](https://github.com/fians/Waves).
+
+Use the wave effect in Vue 1.x or less. Based on [Waves](https://github.com/fians/Waves).
 
 ## Install
 
-Cloning this repository to your project.
 
 ```
-git clone git@github.com:yscoder/vue-directive-waves.git
+npm install vue-directive-waves@1.0.0 --save
 ```
 
-Installation depends.
-
-```
-cd vue-directive-waves
-npm install
-```
 
 ## Example
 
 Add directive in the template.
 
-```
+```html
 <template>
     <button v-waves></button>
 </template>
@@ -28,7 +22,7 @@ Add directive in the template.
 
 References in the script.
 
-```
+```js
 var Vue = require('vue');
 var Waves = require('vue-directive-waves');
 
@@ -39,7 +33,7 @@ Vue.use(Waves);
 
 Default modifiers is `v-waves.block`. 
 
-```
+```html
 <button v-waves.button></button>
 <button v-waves.button.float></button>
 <button v-waves.button.light></button>
@@ -56,7 +50,7 @@ Default modifiers is `v-waves.block`.
 
 Same as [Waves](http://fian.my.id/Waves/#api).
 
-```
+```js
 Vue.use(Waves, {
     duration: 500,
     delay: 200
