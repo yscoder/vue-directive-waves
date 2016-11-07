@@ -2,6 +2,8 @@
 
 Use the wave effect in Vue2. Based on [Waves](https://github.com/fians/Waves).
 
+> Vue1.x see the [1.0 Tag](https://github.com/yscoder/vue-directive-waves/tree/1.0).
+
 ## Install
 
 ```
